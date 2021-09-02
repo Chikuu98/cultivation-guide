@@ -15,7 +15,7 @@ html, body{
     --text-light : #686666da;
     --bg-color: #0f0f0f;
     --white: #ffffff;
-    --midnight: #1FAA59;
+    --midnight: #1e824c;
 
     /* gradient color   */
     --sky: linear-gradient(to right, #56ab2f, #a8e063);
@@ -26,6 +26,7 @@ html, body{
     --Josefin : 'Josefin', cursive;
     --Lexend: 'Lexend', cursive;
     --Livvic : 'Livvic', cursive;
+    --Roboto : 'Roboto',cursive;
 }
 
 
@@ -65,8 +66,9 @@ button.btn{
     border-radius: 2rem;
     padding: 1rem 3rem;
     font-size: 1rem;
-    font-family: var(--Livvic);
+    font-family: var(--Lexend);
     cursor: pointer;
+    transition:1s;
 }
 
 span{
@@ -91,7 +93,7 @@ p{
 /* --------------- navbar ----------------- */
 
 .nav{
-    background: #38CC77;
+    background: #26a65b;
     padding: 0 2rem;
     height: 0rem;
     min-height: 10vh;
@@ -132,10 +134,10 @@ p{
 }
 
 .nav .nav-items .nav-link{
-    padding: 1.6rem 1rem;
+    padding: 1.3rem 1rem;
     font-size: 1.1rem;
     position: relative;
-    font-family: var(--Abel);
+    font-family: var(--Roboto);
     font-size: 1.1rem;
 }
 
@@ -174,7 +176,7 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../assets/Background-image.png');
+    background: url('../assets/Background-image(1).png');
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -200,6 +202,7 @@ main .site-title .btn:hover{
     background: transparent;
     border: 1px solid var(--white);
     color: var(--white);
+    transition:1s;
 }
 
 /* --------x------ Site title --------x------- */
@@ -207,12 +210,12 @@ main .site-title .btn:hover{
 /* --------------- Blog Carousel ------------ */
 
 main .blog{
-    background: url('../assets/Abract01.png');
+    background: url('../assets/Abract03.png');
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
     width: 100%;
-    background-size: 65%;
+    background-size: 100%;
 }
 
 main .blog .blog-post{
